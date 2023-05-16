@@ -1,0 +1,81 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.wrapp {
+    background-image: url(./backimg.jpg);
+    background-position:center;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+
+}
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: rgb(141, 114, 240);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+  }
+  .button div {
+     color: white;
+   
+  }
+  .button:hover {
+    background-color: rgba(220,214,249,255);
+  }
+  .button div:hover {
+    color: rgb(141, 114, 240) ;
+  }
+  
+  
+  .chart {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  
+  }
+  .chart h1 {
+     color: rgba(192,193,246);
+     margin-left: 40%;
+  }
+  
+  
+  .export-button {
+    padding: 10px 20px;
+    background-color: rgb(141, 114, 240);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .export-button div {
+    color: white;
+  }
+  .export-button div:hover
+      {
+        color : rgb(141, 114, 240);
+      }
+  .export-button:hover {
+    background-color: rgba(220,214,249,255);
+  }
+  
+ 
+  
